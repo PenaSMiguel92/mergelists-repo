@@ -7,9 +7,12 @@ public class Main {
         ListNode list4 = generateList(new int[] {});
         ListNode list5 = generateList(new int[] {});
         ListNode list6 = generateList(new int[] { 0 });
+        ListNode list7 = generateList(new int[] { 2, 5, 8, 12, 56, 85, 100 });
+        ListNode list8 = generateList(new int[] {-24, -10, 0, 66, 89, 90, 91, 92, 93, 94, 100});
         System.out.println(printList(sol.mergeTwoLists(list1, list2)));
         System.out.println(printList(sol.mergeTwoLists(list3, list4)));
         System.out.println(printList(sol.mergeTwoLists(list5, list6)));
+        System.out.println(printList(sol.mergeTwoLists(list7, list8)));
 
     }
     
