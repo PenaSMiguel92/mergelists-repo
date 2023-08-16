@@ -25,8 +25,9 @@ public class Main {
 
     public static String printList(ListNode list) {
         String val = "[";
-        while(list!=null) {
-            val += list.val + ", ";
+        while (list != null) {
+            String use = list.next != null ? ", " : "";
+            val += list.val + use;
             list = list.next;
         }
         val += "]";
